@@ -1,0 +1,134 @@
+.musica {
+  background-color: darkred;
+  background-attachment: scroll;
+ 
+}
+
+.encabezado {
+  background-color: dimgrey;
+  max-height: 280px;
+  border: none;
+}
+
+.logo-img {
+  width: 150px;
+    margin: 20px;
+}
+
+.container-fluid {
+  margin-top: 73px;
+}
+.espacios-text {
+  height: 50px;    
+  font-size: 16px;
+  margin-top: 20px;
+  color: #FFFFFF;
+}
+
+.redes-sociales {
+  margin-top: 30px;
+}
+.img-social {
+  width: 40px;
+  height: 40px;
+}
+
+
+.botones{
+    background-color: aliceblue;
+}
+
+.img-m {
+  height: 460px;
+  padding: 6px;
+  margin-top: 22px;
+}
+
+.m-title {
+  color: #FFFFFF;
+}
+
+.welcome-title {
+  color: #FFFFFF;
+  margin-right: 10px;
+}
+
+.titulo-cartelera {
+  min-height: 35px;
+  background-color: rgba(8, 45, 94, 0.95);
+}
+
+.titulo-text {
+  font-size: 18px;
+  font-weight: bolder;
+  color: #FFFFFF;
+  padding: 10px;
+}
+
+.m-row {
+  background: black;
+  padding: 25px;
+}
+
+.perfil{
+    height: 60px;
+}
+
+.comentarios{
+    margin: 20px;
+}
+
+.left-column {
+  border-right: 1px dashed #FFFFFF;
+}
+
+.row-centered {
+  text-align:center;
+}
+.bor{
+    margin: 0px;
+    padding: 25px;
+    border: 1px solid white;
+}
+
+
+
+
+@media (max-width: 770px) {
+  
+    .logo-img {
+    width: 200px;
+    margin: 60px;
+    
+}
+    
+  .m-title {
+  margin: 7px;
+}    
+    
+  .img-m {
+  height: 380px;
+  padding: 6px;
+  margin-top: 22px;
+}    
+
+  .titulo-text {
+    font-size: 15px;
+  }
+
+  .right-column {
+    display: none;
+  }
+
+  .m-row {
+    padding-left: 0px;
+    padding-right: 0px;
+    min-height: 400px;
+  }
+
+  .container-fluid{
+    margin-top: 60px;
+  }
+    
+
+}
